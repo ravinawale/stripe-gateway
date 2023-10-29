@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/checkout.css" rel="stylesheet" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="/register.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Register</h1>
+      <form id="signup-form">
+        <div>
+          <table>
+          	<tr>
+          	    <td>Name</td>
+          	    <td><input id="cname" type="text" placeholder="Customer Name" value="test" required /></td>
+          		<td>Email</td>
+          		<td><input id="email" type="text" placeholder="Email address" value="test@example.com" required /></td>
+          	</tr>
+          	<tr><td colspan="2"><button type="submit">Register</button></td></tr>
+          </table>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
